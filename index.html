@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripPlannr</title>
+
+    <!-- HTML document linking-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">i
+</head>
+
+
+<!--Body section starts-->
+
+<body>
+<!----------------------------- header section starts----------------------------------->    
+<header>
+    
+    <div id="menu-bar" class="fas fa-bars"></div>
+    
+    <a href="#" class="logo"><span>TRIP</span>PLANNR</a>
+<!------------------------------------ navigation bar----------------------------------->
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Carpool">Carpool</a>
+        <a href="#Tickets">Tickets</a>
+        <a href="#Hotels">Hotels</a>
+        <a href="#Restaurants">Restaurants</a>
+        <a href="#Live Events">Live Events</a>
+        <a href="#Contact Us">Contact Us</a>
+
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id = "login-btn"></i>
+    </div>
+
+    <!------------------------ Creating the search bar---------------------------->
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search.....">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+<!--Header section ends-->
+
+<!--------------------------------creating login form---------------------------------->
+
+<div class="login-form-container">
+
+    <!-- Close button-->
+    <div>
+        <a href="#" class="closeBtn">+</a>
+    </div>
+
+    <!-- Main form-->
+    <form action="">
+        <h3>Login</h3>
+        <input type="username" class="box" placeholder="Enter your username">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id = "remember">
+        <label for="remember">Remember me</label>
+        <p>Forgot password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Register now!</a></p>
+    </form>
+
+
+</div>
+
+<!--------------------------home section--------------------------->
+
+<section class="home" id = "home">
+
+    <div class="content">
+        <h3>Explore India!</h3>
+        <p>Trips made simpler!</p>
+        <a href="#" class="btn">Discover more</a>
+    </div>
+
+<!-------------------Inserting background image--------------------------->
+<div class="bg-img-container">
+    <style>
+        .home{
+          background-image: url(homepage\ bg.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
+</div>
+        
+
+</section>
+
+<!---------------------------- Booking section------------------------------------>
+
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span> 
+        <span>w</span>
+
+    </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="ticket book.jpg" alt="">
+        </div>
+
+        <!-- Booking form-->
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to?</h3>
+                <input type="text" placeholder="Place Name">
+            </div>
+
+            <div class="inputBox">
+                <h3>How many?</h3>
+                <input type="number" placeholder="Number of guests">
+            </div>
+
+            <div class="inputBox">
+                <h3>From</h3>
+                <input type="date">
+            </div>
+            
+            <div class="inputBox">
+                <h3>To</h3>
+                <input type="date">
+            </div>
+            
+
+            <input type="submit" class="btn" value="Book now">
+        </form>
+    </div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+
+<!----------------------------- Our Services--------------------------------->
+
+<section class="services" id="services">
+
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span> 
+        <span>s</span>
+
+    </h1>
+
+    <div class="box-container">
+    
+        <div class="lbox">
+            <img src="services-icons/restaurant.svg" alt="">
+            <h3>Restaurants Nearby</h3>
+           
+        </div>
+
+        <div class="rbox">
+            <img src="services-icons/hotel.svg" alt="">
+            <h3>Hotel Booking</h3>
+            
+        </div>
+    
+        <div class="lbox">
+            <img src="services-icons/Car.svg" alt="">
+            <h3>Car Pooling</h3>
+            
+        </div>
+    
+        <div class="rbox">
+            <img src="services-icons/event.svg" alt="">
+            <h3>Live Events</h3>
+           
+        </div>
+    
+        <div class="lbox">
+            <img src="services-icons/Flight.svg" alt="">
+            <h3>Ticket Booking</h3>
+        </div>
+    
+    
+        <div class="rbox">
+            <img src="services-icons/Safety.svg" alt="">
+            <h3>Safety guide</h3>
+           
+        </div>
+    
+    </div>
+
+   
+</section>
+<br>
+<br>
+<br>
+<br>
+
+<!--------------------------------Contact us section-------------------------------->
+
+
+<section class="contact" id="contact">
+
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>u</span> 
+        <span>s</span>
+
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="contactus.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="username" placeholder="username">
+            </div>
+             
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        
+        </div>
+        </form>
+
+</section>
+
+<br>
+<br>
+<br>
+
+
+<!------------------------------------ Footer section ---------------------------->
+
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box1">
+            <h3>About us</h3>
+            <p>We are a travel and tourism website designed to help solo travelers plan and manage their trips with ease in one go.</p>
+        </div>
+   
+
+        <div class="box2">
+        <h3>Follow us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+   
+    </div>
+
+    <h1 class="credit">Created by <span>Our web design team</span> all rights reserved!</h1>
+
+</section>
+
+<!--JS file linking-->
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
